@@ -1,0 +1,27 @@
+{
+	"commentStamp" : "BorisShingarov 9/25/2014 14:04",
+	"super" : "AcCommonParser",
+	"category" : "Petrich-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"abi",
+		"abiDefinition",
+		"defineCalleeSave",
+		"defineReserved",
+		"defineAuxiliar",
+		"defineCallingConvention",
+		"defineStackPointer",
+		"defineFramePointer",
+		"defineReturnRegister",
+		"defineStackGrows",
+		"definePCOffset",
+		"defineProgramCounter",
+		"convType",
+		"stackConventionDef",
+		"registerConventionDef"
+	],
+	"name" : "AcAbiParser",
+	"type" : "normal"
+}

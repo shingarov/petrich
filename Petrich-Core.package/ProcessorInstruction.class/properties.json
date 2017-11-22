@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Petrich-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"format",
+		"internalBindings",
+		"mnemonics",
+		"semantics",
+		"isa"
+	],
+	"name" : "ProcessorInstruction",
+	"type" : "normal"
+}

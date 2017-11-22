@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SemanticOperand",
+	"category" : "Petrich-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"type"
+	],
+	"name" : "RegisterSemanticOperand",
+	"type" : "normal"
+}

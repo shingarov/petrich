@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "PPCompositeParser",
+	"category" : "Petrich-Parsing",
+	"classinstvars" : [
+		"maps"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"percentId",
+		"imm"
+	],
+	"name" : "AcMnemonicFormatParser",
+	"type" : "normal"
+}

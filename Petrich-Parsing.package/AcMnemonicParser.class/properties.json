@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "",
+	"super" : "PPCompositeParser",
+	"category" : "Petrich-Parsing",
+	"classinstvars" : [
+		"maps"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"format",
+		"operand",
+		"operandOrConstraint",
+		"constraintConstant",
+		"constraintMap",
+		"operands",
+		"id",
+		"decimalNumber",
+		"number",
+		"hexNumber"
+	],
+	"name" : "AcMnemonicParser",
+	"type" : "normal"
+}

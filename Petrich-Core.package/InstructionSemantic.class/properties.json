@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Petrich-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"trees",
+		"cost",
+		"hasDelaySlot",
+		"instruction"
+	],
+	"name" : "InstructionSemantic",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "BorisShingarov 6/16/2015 01:48",
+	"super" : "ProcessorInstruction",
+	"category" : "Petrich-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"externalBindings"
+	],
+	"name" : "GroundedProcessorInstruction",
+	"type" : "normal"
+}

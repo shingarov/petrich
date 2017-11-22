@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Petrich-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"format",
+		"operands",
+		"constraints"
+	],
+	"name" : "AcMnemonicSpec",
+	"type" : "normal"
+}

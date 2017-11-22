@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "PPCompositeParser",
+	"category" : "Petrich-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"term",
+		"functor",
+		"arg",
+		"operand",
+		"imm",
+		"const"
+	],
+	"name" : "AcSemanticTermParser",
+	"type" : "normal"
+}

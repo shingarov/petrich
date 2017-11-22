@@ -1,0 +1,3 @@
+processors
+powerPC
+	^AcProcessorDescriptions powerpc

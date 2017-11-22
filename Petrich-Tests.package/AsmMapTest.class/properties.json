@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AcIsaStatementParseTest",
+	"category" : "Petrich-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AsmMapTest",
+	"type" : "normal"
+}

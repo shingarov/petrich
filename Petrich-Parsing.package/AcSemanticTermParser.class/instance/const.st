@@ -1,0 +1,3 @@
+grammar
+const
+	^ 'const' asParser 

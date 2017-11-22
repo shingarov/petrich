@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Petrich-InstructionSelector",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"expression",
+		"operandBindings"
+	],
+	"name" : "AgSemantic",
+	"type" : "normal"
+}

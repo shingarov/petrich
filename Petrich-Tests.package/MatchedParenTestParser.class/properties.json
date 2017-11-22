@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AcCommonParser",
+	"category" : "Petrich-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MatchedParenTestParser",
+	"type" : "normal"
+}

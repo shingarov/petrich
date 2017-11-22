@@ -1,0 +1,3 @@
+grammar
+positiveNumber
+	^hexNumber / decimalNumber

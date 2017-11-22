@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AgOperand",
+	"category" : "Petrich-InstructionSelector",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AgFragOperand",
+	"type" : "normal"
+}

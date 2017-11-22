@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AcCallingConvention",
+	"category" : "Petrich-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"registers"
+	],
+	"name" : "AcRegisterCallingConvention",
+	"type" : "normal"
+}

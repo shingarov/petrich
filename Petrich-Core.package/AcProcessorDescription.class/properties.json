@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Petrich-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"memories",
+		"regbanks",
+		"regs",
+		"maps",
+		"wordsize",
+		"endian",
+		"instructionFormats",
+		"instructions",
+		"gdb",
+		"tgtimm",
+		"architectureName",
+		"abi"
+	],
+	"name" : "AcProcessorDescription",
+	"type" : "normal"
+}

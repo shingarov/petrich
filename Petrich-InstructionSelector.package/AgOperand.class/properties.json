@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "AgNode",
+	"category" : "Petrich-InstructionSelector",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"type",
+		"isSpecificReference",
+		"acceptsSpecificReference",
+		"isTransferDestination",
+		"manager"
+	],
+	"name" : "AgOperand",
+	"type" : "normal"
+}
