@@ -1,8 +1,9 @@
 disassembly
 disassemble: anInteger
 	"Answer the AcInstructionInstance object encoded by anInteger."
-	instructions valuesDo: [ :instr |
-		| instance |
-		instance := instr decode: anInteger.
-		instance == nil ifFalse: [ ^instance ]].
-	self error: 'Invalid instruction encoding'
+	| candidates |
+	candidates := instructions collect: [ :instr |
+		instr decode: anInteger ].
+	candidates := candidates reject: [ :instr | instr isNil ].
+	candidates isEmpty ifTrue: [self error: 'Invalid instruction encoding'].
+	^(candidates asSortedCollection:  [ :a :b | a externalBindingBits < b externalBindingBits ]) first
