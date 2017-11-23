@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Shmem",
+	"category" : "GDB-RSP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ptr"
+	],
+	"name" : "ShmemUFFI",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 settings
 current
-	^self mpc5125    
+	^self gem5PPC     

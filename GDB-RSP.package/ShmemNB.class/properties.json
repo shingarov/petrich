@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "BorisShingarov 11/23/2017 02:46",
+	"super" : "Shmem",
+	"category" : "GDB-RSP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ptr"
+	],
+	"name" : "ShmemNB",
+	"type" : "normal"
+}

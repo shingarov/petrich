@@ -1,11 +1,7 @@
 address translation
 readAt: addr nBytes: n
-	| phys buf |
+	| phys ptr |
 	phys := self virt2phys: addr.
 	phys isNil ifTrue: [ ^ self forceReadAt: addr nBytes: n ].
-	buf := ByteArray new: n.
-	NativeBoost forCurrentPlatform
-		memCopy: self hostPtr + phys
-		to: buf
-		size: n.
-	^buf
+	ptr := self hostPtr ptr getHandle + phys.
+	^ptr copyFrom: 1 to: n
