@@ -1,0 +1,3 @@
+surgery
+getRegisters
+self halt

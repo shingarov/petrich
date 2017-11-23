@@ -1,0 +1,3 @@
+accessing
+instructionStreamClass
+	^ instructionStreamClass

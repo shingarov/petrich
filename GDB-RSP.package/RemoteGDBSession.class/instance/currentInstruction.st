@@ -1,0 +1,3 @@
+RSP commands
+currentInstruction
+	^processorDescription disassemble: self currentInstructionEncoding

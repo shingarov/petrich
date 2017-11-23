@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "RemoteGDBTransfer",
+	"category" : "GDB-RSP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"packetSize",
+		"processorDescription",
+		"tStatus",
+		"why",
+		"supported",
+		"vCont"
+	],
+	"name" : "RemoteGDB",
+	"type" : "normal"
+}

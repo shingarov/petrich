@@ -1,0 +1,3 @@
+private
+nameForInspector
+	^'GDB'

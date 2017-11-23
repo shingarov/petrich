@@ -1,0 +1,1 @@
+I add a 'Modtalk' tab to the GT Inspector.

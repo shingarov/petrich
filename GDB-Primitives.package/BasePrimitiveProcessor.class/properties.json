@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "GDB-Primitives",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gdb",
+		"regs"
+	],
+	"name" : "BasePrimitiveProcessor",
+	"type" : "normal"
+}

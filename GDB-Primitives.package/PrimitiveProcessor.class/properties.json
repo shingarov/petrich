@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "BorisShingarov 5/5/2016 17:24",
+	"super" : "BasePrimitiveProcessor",
+	"category" : "GDB-Primitives",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"exceptionEnvSlot"
+	],
+	"name" : "PrimitiveProcessor",
+	"type" : "normal"
+}

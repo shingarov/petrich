@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "GDB-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gdb",
+		"pdl"
+	],
+	"name" : "RemoteGDBTestCase",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "NBExecutableAwareGDB",
+	"category" : "GDB-RSP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NBExecutableAwareGDB8K",
+	"type" : "normal"
+}

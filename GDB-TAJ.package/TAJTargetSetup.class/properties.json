@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "GDB-TAJ",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gdbClass",
+		"host",
+		"port",
+		"architecture",
+		"processor",
+		"magicInstruction",
+		"instructionStreamClass",
+		"breakpointKind"
+	],
+	"name" : "TAJTargetSetup",
+	"type" : "normal"
+}

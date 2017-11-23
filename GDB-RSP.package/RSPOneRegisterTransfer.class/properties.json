@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "GDB-RSP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"regName",
+		"width",
+		"isLittleEndian",
+		"regNum"
+	],
+	"name" : "RSPOneRegisterTransfer",
+	"type" : "normal"
+}

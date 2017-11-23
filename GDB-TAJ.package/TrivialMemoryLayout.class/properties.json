@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "MTXMemoryLayout",
+	"category" : "GDB-TAJ",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gdb",
+		"nZone",
+		"heap",
+		"stack"
+	],
+	"name" : "TrivialMemoryLayout",
+	"type" : "normal"
+}

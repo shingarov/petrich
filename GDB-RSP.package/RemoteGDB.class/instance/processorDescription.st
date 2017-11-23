@@ -1,0 +1,3 @@
+private
+processorDescription
+	^processorDescription
