@@ -8,7 +8,7 @@ processXML: xmlDocument
 		regNum := (regNode attributeAt: 'regnum' ifAbsent: [ regNum ]) asInteger.
 		rt := RSPOneRegisterTransfer new
 			regName: (regNode attributeAt: 'name');
-			width: (regNode attributeAt: 'bitsize');
+			width: ((regNode attributeAt: 'bitsize') asInteger);
 			isLittleEndian: false;
 			regNum: regNum;
 			yourself.
