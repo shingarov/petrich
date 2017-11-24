@@ -1,5 +1,5 @@
-sparc
-testSparcAdd
+riscv-r32i
+testR32iRadd
 	| instr |
 	instr := AcProcessorDescriptions sparcv8 disassemble: 16rA2002001. "%l1 := 1"
 	self assert: (instr isKindOf: GroundedProcessorInstruction).

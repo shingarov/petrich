@@ -1,4 +1,4 @@
-tests-powerpc
+powerpc
 testNegativeOffset
 
 	| stw operands binary |

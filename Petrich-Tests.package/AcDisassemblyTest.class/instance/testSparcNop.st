@@ -1,4 +1,4 @@
-tests - sparc
+sparc
 testSparcNop
 	| instr |
 	instr := AcProcessorDescriptions sparcv8 disassemble: 16r01000000.

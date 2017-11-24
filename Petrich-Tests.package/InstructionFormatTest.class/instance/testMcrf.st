@@ -1,4 +1,4 @@
-tests-powerpc
+powerpc
 testMcrf
 	"Some instruction formats, e.g. XL3 on the PowerPC,
 	 include constant bitfields.

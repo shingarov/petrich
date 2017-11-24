@@ -1,0 +1,3 @@
+GT
+nameForInspector
+	^self name

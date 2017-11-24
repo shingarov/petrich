@@ -1,4 +1,4 @@
-tests-mips
+mips
 testSllEncoding
 	" sll r1, r2, 2
 	See MIPS Run, 1st Ed., p.217 et seq. "

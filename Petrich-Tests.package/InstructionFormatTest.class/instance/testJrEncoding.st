@@ -1,4 +1,4 @@
-tests-mips
+mips
 testJrEncoding
 	" jr r3
 	See MIPS Run, 1st Ed., p.217 et seq. "
