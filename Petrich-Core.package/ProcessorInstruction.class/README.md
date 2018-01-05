@@ -1,0 +1,1 @@
+I represent an instruction where only "constant" fields, such as the opcode, are known.
