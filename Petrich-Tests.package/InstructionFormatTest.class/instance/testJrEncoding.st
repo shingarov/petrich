@@ -12,4 +12,4 @@ testJrEncoding
 		at: #rs put: 3;
 		yourself.
 	inst := jr bind: env.
-	self assert: inst emit = 16r00600008
+	self assert: inst emit32 = 16r00600008

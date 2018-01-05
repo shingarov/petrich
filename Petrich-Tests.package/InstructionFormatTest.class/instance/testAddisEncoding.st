@@ -1,7 +1,7 @@
 powerpc
 testAddisEncoding
-	"LBZ D-form (PPCArch, p.50):
-	 lbz r2, 0x0001(r7) "
+	"addis D-form (PPCArch, p.82):
+	 addis r2, r7, 0x1 "
 
 	| addis env grounded |
 	addis := AcProcessorDescriptions powerpc instructionAt: #addis.
@@ -11,4 +11,5 @@ testAddisEncoding
 		at: #d put: 1;
 		yourself.
 	grounded := addis bind: env.
-	self assert: grounded emit equals: 16r88470001
+	"001111 00010 00111 0000000000000001"
+	self assert: grounded emit equals: '00111100010001110000000000000001'

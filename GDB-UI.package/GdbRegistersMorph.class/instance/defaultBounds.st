@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 defaultBounds
 	"Answer the default bounds for the receiver."
 

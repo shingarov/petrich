@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawSPRsOn: clippedCanvas fromHeight: y
 	| yy |
 	yy := y.

@@ -1,10 +1,10 @@
 drawing
-drawGPRsOn: clippedCanvas
+drawRegistersOn: clippedCanvas
 	| y |
 	y := self drawGPRHeaderOn: clippedCanvas.
-	0 to: 31 do: [ :r |
+	gdb processorDescription gdb do: [ :r |
 		| regName |
-		regName := 'r', r printString.
+		regName := r regName.
 		clippedCanvas
 			drawString: regName, ' = ', (regs at: regName) printString
 			at: (self bounds topLeft + (0 @ y))

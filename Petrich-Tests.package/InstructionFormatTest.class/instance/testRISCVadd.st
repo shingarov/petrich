@@ -9,4 +9,4 @@ testRISCVadd
 		yourself.
 	add := add bind: operands.
 	binary := add emit. "0000000,00010,00001,000,00011,0110011"
-	self assert: binary equals: 2r00000000001000001000000110110011
+	self assert: binary equals: '00000000001000001000000110110011'

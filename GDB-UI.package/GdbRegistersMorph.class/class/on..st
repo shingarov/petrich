@@ -1,5 +1,5 @@
 instance creation
 on: aGDB
-	^self new
+	^(self concreteClassFor: aGDB) new
 		gdb: aGDB;
 		yourself

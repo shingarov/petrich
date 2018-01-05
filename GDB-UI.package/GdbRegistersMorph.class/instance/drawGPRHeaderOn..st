@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawGPRHeaderOn: clippedCanvas
 	clippedCanvas
 		drawString: 'GPR:'

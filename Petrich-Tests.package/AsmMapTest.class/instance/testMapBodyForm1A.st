@@ -8,4 +8,4 @@ testMapBodyForm1A
 	map := result value.
 	self assert: map key equals: 'm'.
 	mapbodylist := map value.
-		self halt.
+	self assert: (mapbodylist at: 123) equals: 'x'

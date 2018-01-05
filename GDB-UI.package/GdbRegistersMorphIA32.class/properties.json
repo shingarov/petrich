@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "Petrich-Tests",
+	"super" : "GdbRegistersMorph",
+	"category" : "GDB-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "STRTest",
+	"name" : "GdbRegistersMorphIA32",
 	"type" : "normal"
 }

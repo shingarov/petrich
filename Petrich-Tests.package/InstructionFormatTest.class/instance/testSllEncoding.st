@@ -12,4 +12,4 @@ testSllEncoding
 		at: #rs put: 0;  "Unused and must be set to 0"
 		yourself.
 	inst := sll bind: env.
-	self assert: inst emit = 16r00020880
+	self assert: inst emit32 = 16r00020880

@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawOn: aCanvas
 	regs := gdb getRegisters.
 	aCanvas
@@ -7,7 +7,6 @@ drawOn: aCanvas
 			clippedCanvas
 				fillRectangle: self bounds
 				color: Color yellow.	
-		self drawSPRsOn: clippedCanvas fromHeight:
-		(self drawGPRsOn: clippedCanvas) + 15
-				].
+			self drawRegistersOn: clippedCanvas
+		]
  

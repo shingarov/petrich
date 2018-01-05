@@ -11,4 +11,4 @@ testLbzEncodingNegativeOffset
 		at: #d put: -1;
 		yourself.
 	grounded := lbz bind: env.
-	self assert: grounded emit equals: 16r8847FFFF
+	self assert: grounded emit32 equals: 16r8847FFFF

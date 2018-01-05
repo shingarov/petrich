@@ -10,4 +10,4 @@ testNegativeOffset
 		yourself.
 	stw := stw bind: operands.
 	binary := stw emit. " 1001000000100011 0000000000000000 "
-	self assert: binary = 2r10010000001000111111111111111111
+	self assert: binary equals: '10010000001000111111111111111111'

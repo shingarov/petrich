@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "AcCommonParser",
-	"category" : "Petrich-Tests",
+	"super" : "GdbRegistersMorph",
+	"category" : "GDB-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "STRTestParser",
+	"name" : "GdbRegistersMorphpowerpc",
 	"type" : "normal"
 }

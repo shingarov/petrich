@@ -11,4 +11,4 @@ testCmpEncoding
 		at: #rb put: 0;
 		yourself.
 	inst := cmp bind: env.
-	self assert: inst emit equals: 16r7C9F0000
+	self assert: inst emit32 equals: 16r7C9F0000

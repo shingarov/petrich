@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawSPR: spr on: clippedCanvas fromHeight: y
 	clippedCanvas
 		drawString: spr, ' = ', (regs at: spr) printString
