@@ -1,3 +1,3 @@
 magick
 runUntilMagick
-	self runUntil: [ self currentInstructionEncoding = self exe objectMemory targetSetup magicInstruction ]
+	self runUntil: [ self currentInstructionEncoding = (Integer readFrom: self exe objectMemory targetSetup magicInstruction radix: 2) ]
