@@ -8,10 +8,7 @@ writeBytes: aByteArray toAddr: addr
 		buffer nextPutAll: data
 	].
 	textualAddr := addr printStringBase: 16 length: 8 padded: true.
-	textualSize := aByteArray size printStringBase: 16.
-	
-	textualAddr = '10011140' ifTrue: [ self halt ].
-	
+	textualSize := aByteArray size  printStringBase: 16.
 	answer := self
 		q: 'M', textualAddr,  ',', textualSize, ':', buffer contents.
 	answer = 'OK' ifFalse: [ self halt ].
