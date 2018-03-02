@@ -1,11 +1,15 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Petrich-InstructionSelector",
+	"category" : "Petrich-DUI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "AgCallingConvention",
+	"instvars" : [
+		"stream",
+		"author",
+		"project"
+	],
+	"name" : "Pharo2beeClassFileout",
 	"type" : "normal"
 }
