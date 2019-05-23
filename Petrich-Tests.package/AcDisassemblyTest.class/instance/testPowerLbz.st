@@ -13,5 +13,5 @@ testPowerLbz
 		at: #d put: 1;
 		yourself.
 	grounded := lbz bind: env.
-	binary := grounded emit.
+	binary := grounded emit32.
 	self assert: grounded equals: (pdl disassemble: binary).
