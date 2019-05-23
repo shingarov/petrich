@@ -1,0 +1,1 @@
+MMUs on some processors, such as the MIPS32 implementation found in the JZ4780 chip on the Creator CI20 board, have 8K page granularity.

@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "",
-	"super" : "Shmem",
+	"commentStamp" : "BorisShingarov 5/23/2019 04:12",
+	"super" : "Object",
 	"category" : "GDB-RSP",
 	"classinstvars" : [ ],
 	"pools" : [ ],

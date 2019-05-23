@@ -1,1 +1,0 @@
-NativeBoost interface to SHM.
