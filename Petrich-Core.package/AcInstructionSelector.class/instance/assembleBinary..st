@@ -1,2 +1,0 @@
-code emitting
-assembleBinary: x

@@ -1,1 +1,0 @@
-I add a 'Registers' tab to the GT Inspector.

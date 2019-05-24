@@ -1,3 +1,0 @@
-grammar
-operand
-	^gprOperand / immediateOperand

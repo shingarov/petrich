@@ -1,3 +1,0 @@
-GT
-nameForInspector
-	^self name

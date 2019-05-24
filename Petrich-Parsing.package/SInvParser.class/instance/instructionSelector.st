@@ -1,3 +1,0 @@
-accessing
-instructionSelector
-	^ instructionSelector

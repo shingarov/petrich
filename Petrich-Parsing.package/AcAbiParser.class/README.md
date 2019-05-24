@@ -1,1 +1,0 @@
-I parse the 'define abi as...' clause in the compiler_info.ac AccGen semantics description.

@@ -1,3 +1,0 @@
-grammar
-operands
-	^emptyOperands / nonEmptyOperands
