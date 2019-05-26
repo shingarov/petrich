@@ -1,6 +1,7 @@
 RSP commands
 prepareSession
 	self qSupported.
+	self packetSize.
 	self setThread: 'g' t: 0.
 	self qStatus = '' ifFalse: [ self error: 'Bad status' ].
 	self vCont.
