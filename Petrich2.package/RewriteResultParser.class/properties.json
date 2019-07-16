@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "PPCompositeParser",
+	"category" : "Petrich2-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"instruction",
+		"instructionName",
+		"operands",
+		"emptyOperands",
+		"nonEmptyOperands",
+		"operand",
+		"processorDescription",
+		"gprOperand",
+		"immediateOperand",
+		"decimal"
+	],
+	"name" : "RewriteResultParser",
+	"type" : "normal"
+}

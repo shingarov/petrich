@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AcProcessorDescription",
+	"category" : "Petrich2-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"iis"
+	],
+	"name" : "AcInstructionSelector",
+	"type" : "normal"
+}

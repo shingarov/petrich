@@ -1,3 +1,0 @@
-testing
-isTransferDestination
-	self subclassResponsibility

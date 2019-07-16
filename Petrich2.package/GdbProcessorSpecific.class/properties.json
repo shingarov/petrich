@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Petrich2-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"registerTransfers",
+		"defines"
+	],
+	"name" : "GdbProcessorSpecific",
+	"type" : "normal"
+}

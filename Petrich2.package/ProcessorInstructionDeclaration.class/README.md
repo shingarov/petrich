@@ -1,0 +1,2 @@
+I represent an instruction where only "constant" fields, such as the opcode, are known.
+NB: This class is purely abstract, existing just for separation of code.  Even when an instruction is initially instantiated as "fully ungrounded", it is an instance of ProcessorInstruction.

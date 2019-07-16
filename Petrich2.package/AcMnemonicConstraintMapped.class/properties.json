@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "AcMnemonicConstraint",
+	"category" : "Petrich2-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"map",
+		"key"
+	],
+	"name" : "AcMnemonicConstraintMapped",
+	"type" : "normal"
+}

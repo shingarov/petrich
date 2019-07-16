@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Petrich2-Pig",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"codePtr",
+		"pdl",
+		"gdb",
+		"breakpointKind",
+		"magicInstruction"
+	],
+	"name" : "TargetAgnosticInstructionStream",
+	"type" : "normal"
+}

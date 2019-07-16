@@ -1,0 +1,3 @@
+I am a CPU instruction.
+I may be grounded to some degree or another -- i.e., some operands known and some not.
+When the PDL spec is initially parsed, the "instrictions" Dictionary is filled with "fully free" instructions, i.e. only the constant fields (such as opcd) are known but none of the operands.  This does not, however, prevent the instruction from being emitted; if some operand is unknown, the corresponding bits in the binary encoding will be an algebraic variable.

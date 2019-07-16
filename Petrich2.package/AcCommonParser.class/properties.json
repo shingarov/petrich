@@ -1,0 +1,25 @@
+{
+	"commentStamp" : "",
+	"super" : "PPCompositeParser",
+	"category" : "Petrich2-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"idList",
+		"idListSpaceSeparated",
+		"registerListSpaceSeparated",
+		"matchedParen",
+		"decimalNumber",
+		"hexNumber",
+		"number",
+		"positiveNumber",
+		"negativeNumber",
+		"registerName",
+		"str",
+		"directory"
+	],
+	"name" : "AcCommonParser",
+	"type" : "normal"
+}

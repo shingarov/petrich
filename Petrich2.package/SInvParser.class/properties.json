@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "PPCompositeParser",
+	"category" : "Petrich2-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"decimal",
+		"idiom",
+		"instructionSelector"
+	],
+	"name" : "SInvParser",
+	"type" : "normal"
+}

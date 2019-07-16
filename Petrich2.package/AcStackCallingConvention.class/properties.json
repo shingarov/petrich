@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "AcCallingConvention",
+	"category" : "Petrich2-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"size",
+		"alignment"
+	],
+	"name" : "AcStackCallingConvention",
+	"type" : "normal"
+}

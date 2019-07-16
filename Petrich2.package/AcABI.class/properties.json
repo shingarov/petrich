@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Petrich2-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"callingConventions",
+		"spReg",
+		"fpReg",
+		"pcReg",
+		"retReg",
+		"reservedRegs",
+		"auxRegs",
+		"pcOffset",
+		"stackGrowsAlignment",
+		"calleeSaveRegs"
+	],
+	"name" : "AcABI",
+	"type" : "normal"
+}
