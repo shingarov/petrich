@@ -14,4 +14,5 @@ testPowerLbz
 		yourself.
 	grounded := lbz inEnvironment: env.
 	binary := grounded emit32.
+	binary := binary asBitVector: 32.
 	self assert: grounded equals: (pdl disassemble: binary)
