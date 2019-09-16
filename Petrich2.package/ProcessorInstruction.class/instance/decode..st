@@ -21,7 +21,7 @@ decode: anInt
 	NB2: anInt is allowed to be an Integer instead of bit vector."
 	
 	| s model |
-	s := SimState now solver.
+	s := (SimState arch: self isa architectureName) solver.
 	s add: binaryEncoding = anInt.
 	s isSatisfiable ifFalse: [ Unsat signal ].
 	model := s eval: binaryEncoding.

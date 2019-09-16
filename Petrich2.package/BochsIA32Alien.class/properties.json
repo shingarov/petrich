@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AlienCompatibleProcessor",
+	"category" : "Petrich2-CogCompatibility",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BochsIA32Alien",
+	"type" : "normal"
+}

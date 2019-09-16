@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "External",
+	"category" : "Petrich2-VexIR",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VexIRConst",
+	"type" : "normal"
+}
