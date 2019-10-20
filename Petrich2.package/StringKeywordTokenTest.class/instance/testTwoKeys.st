@@ -1,4 +1,4 @@
-tests
+tests-substitution
 testTwoKeys
 	| d result |
 	d := Dictionary new

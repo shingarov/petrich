@@ -1,4 +1,4 @@
-tests
+tests-substitution
 testKeyAtRight
 	| result |
 	result := 'ab<Z>' replaceKeywords: [ :key | 'XXX' ].

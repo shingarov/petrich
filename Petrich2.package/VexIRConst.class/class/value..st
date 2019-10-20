@@ -1,3 +1,3 @@
 instance creation
 value: x
-	^self construct: 'pyvex.const.', self pythonClassName, ' (', x printString, ')'
+	^self construct: self pythonClassName, ' (', x printString, ')'

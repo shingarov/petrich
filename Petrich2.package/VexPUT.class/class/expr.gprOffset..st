@@ -1,3 +1,3 @@
 instance creation
 expr: e gprOffset: o
-	^self construct: 'pyvex.stmt.Put( ', e ref, ', ', o printString, ' )'
+	^self construct: 'Put( ', e ref, ', ', o printString, ' )'

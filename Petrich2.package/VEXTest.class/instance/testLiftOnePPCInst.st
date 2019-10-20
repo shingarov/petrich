@@ -1,4 +1,4 @@
-tests
+tests-powerpc
 testLiftOnePPCInst
 	| irsb |
 	irsb := self onePPCInst.

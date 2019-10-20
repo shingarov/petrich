@@ -12,5 +12,5 @@ fillSemanticsFrom: aCollectionOfAssociations
 		semanticForest := ass value.
 		instruction := instructions at: instructionName.
 		semanticForest instruction: instruction.
-		instruction semantics add: semanticForest.
+		"instruction semantics add: semanticForest." "we are in LWISEM, do that here instead"
 	]

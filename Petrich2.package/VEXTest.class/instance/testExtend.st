@@ -1,4 +1,4 @@
-tests
+tests-powerpc
 testExtend
 	| irsb |
 	irsb := self onePPCInst, self anotherPPCInst.

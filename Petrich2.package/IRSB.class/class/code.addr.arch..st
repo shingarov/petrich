@@ -11,4 +11,4 @@ code: aByteArray addr: addr arch: archName
 		at: 'mem_addr'   put: addr;
 		at: 'opt_level'  put: 0;
 		yourself.
-	^GenericPyObject create: 'pyvex.IRSB' constructorNamedArgs: args
+	^GenericPyObject create: 'IRSB' constructorNamedArgs: args

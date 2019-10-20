@@ -1,4 +1,4 @@
-tests
+tests-powerpc
 testRunConcat2
 	| specialSimulationState irsb finalState regs finalPC |
 	specialSimulationState := SimState ensureArch: 'powerpc'.

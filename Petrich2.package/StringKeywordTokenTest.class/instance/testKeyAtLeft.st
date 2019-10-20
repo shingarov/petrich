@@ -1,4 +1,4 @@
-tests
+tests-substitution
 testKeyAtLeft
 	| result |
 	result := '<Z>cd' replaceKeywords: [ :key | 'XXX' ].

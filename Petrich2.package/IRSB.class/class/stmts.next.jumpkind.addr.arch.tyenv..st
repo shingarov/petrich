@@ -9,5 +9,5 @@ stmts: collectionOfStmts next: nextExpr jumpkind: aString addr: addr arch: archI
 		with: 'Ijk_Boring'
 		with: 16r100
 		with: archInfo.
-	ref := GenericPyObject create: 'pyvex.IRSB.from_py' constructorSequentialArgs: args.
+	ref := GenericPyObject create: 'IRSB.from_py' constructorSequentialArgs: args.
 	^ref

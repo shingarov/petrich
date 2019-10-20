@@ -6,13 +6,13 @@ semantic
 	^'define instruction ' asParser,
 	id,
 	' semantic as (' asParser,
-	(semanticTree trim ==> [ :x | InstructionSemanticTree let: x first in: x second ]) star,
+	(semanticTree trim ==> [ :x | AccGenInstructionSemanticTree let: x first in: x second ]) star,
 	')' asParser trim,
 	'cost' asParser trim,
 	number,
 	', has_delay_slot' asParser optional,
 	';' asParser
-	==> [ :x | 'semantic' -> (x second -> (InstructionSemantic  
+	==> [ :x | 'semantic' -> (x second -> (AccGenInstructionSemantic  
 		trees: x fourth
 		cost: x seventh
 		hasDelaySlot: (x at: 8) notNil

@@ -1,4 +1,4 @@
-tests
+tests-substitution
 testNoKeywords
 	| result |
 	result := 'abcd' replaceKeywords: [ :key | 'XXX' ].

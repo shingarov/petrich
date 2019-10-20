@@ -1,4 +1,4 @@
-tests
+tests-substitution
 testEmpty
 	| result |
 	result := '' replaceKeywords: [ :key | 'XXX' ].

@@ -1,4 +1,4 @@
-tests
+tests-substitution
 testFull
 	| result |
 	result := 'ab<Z>cd' replaceKeywords: [ :key | 'XXX' ].

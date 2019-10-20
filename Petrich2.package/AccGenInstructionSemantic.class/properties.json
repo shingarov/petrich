@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Petrich2-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"trees",
+		"cost",
+		"hasDelaySlot",
+		"instruction"
+	],
+	"name" : "AccGenInstructionSemantic",
+	"type" : "normal"
+}

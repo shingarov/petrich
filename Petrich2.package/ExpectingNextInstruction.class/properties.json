@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "LWISEMParsingStatus",
+	"category" : "Petrich2-Parsing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"instructionDictionary"
+	],
+	"name" : "ExpectingNextInstruction",
+	"type" : "normal"
+}
