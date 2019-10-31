@@ -1,8 +1,9 @@
-tests-x86
-testIncEAXConcrete
+tests-powerpc
+testLWZ
 	| specialSimulationState irsb finalState |
-	specialSimulationState := SimState ensureArch: 'IA32'.
-	specialSimulationState @ 'regs' at: 'eax' put: 5.
+	specialSimulationState := SimState ensureArch: 'powerpc'.
+self shouldBeImplemented .
+	specialSimulationState @'memory' @ 'regs' at: 'eax' put: 5.
 	irsb := self incEAX.
 	finalState := VEXEngine newEngine process: specialSimulationState irsb: irsb.
 	self assert: (finalState @ 'regs' at: 'eax') equals: 6.

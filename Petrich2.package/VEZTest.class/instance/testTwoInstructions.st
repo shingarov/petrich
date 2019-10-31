@@ -6,5 +6,5 @@ testTwoInstructions
 	specialSimulationState yourself.
 	irsb := instrs vezAt: 16r100.
 	finalState := VEXEngine newEngine process: specialSimulationState irsb: irsb.
-	r3 := finalState registers at: 'r3'.
+	r3 := finalState @'regs' at: 'r3'.
 	self assert: r3 equals: 16rABCD1234

@@ -10,7 +10,7 @@ testOneInstructionSym
 		yourself.
 	irsb := (instr inEnvironment: operands) vezAt: 16r100.
 	finalState := VEXEngine newEngine process: specialSimulationState irsb: irsb.
-	registers := finalState registers.
+	registers := finalState @'regs'.
 	r22 := registers at: 'r22'.
 	self assert: r22 isSymbolic.
 	self deny: r22 isLeaf
