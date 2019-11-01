@@ -7,5 +7,5 @@ testConverge
 	specialSimulationState ref size. "Due to a VM deoptimization bug, specialSimulationState is nil unless we send it a message"
 	irsb := instrs vezAt: 16r100.
 	finalState := VEXEngine newEngine process: specialSimulationState irsb: irsb.
-	r3 := finalState registers at: 'r3'.
+	r3 := finalState @'regs' at: 'r3'.
 	self assert: r3 equals: x

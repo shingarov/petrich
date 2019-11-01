@@ -10,7 +10,7 @@ testOneInstruction
 		yourself.
 	irsb := (instr inEnvironment: operands) vezAt: 16r100.
 	finalState := VEXEngine newEngine process: specialSimulationState irsb: irsb.
-	registers := finalState registers.
+	registers := finalState @'regs'.
 	r3 := registers at: 'r3'.
 	self assert: r3 value equals: 16rABCD0000
 	
