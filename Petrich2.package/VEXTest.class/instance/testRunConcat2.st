@@ -7,5 +7,5 @@ testRunConcat2
 	self assert: finalState ip equals: 16r108.
 	regs := finalState registers.
 	self assert: (regs isKindOf: SymbolicRegisterFile).
-	finalPC := regs at: 1168.
+	finalPC := regs load: 1168.
 	self assert: finalPC value equals: 16r108
