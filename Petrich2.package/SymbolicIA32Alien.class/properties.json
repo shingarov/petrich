@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "AlienCompatibleSymbolicProcessor",
 	"category" : "Petrich2-CogCompatibility",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "AlienCompatibleProcessor",
+	"name" : "SymbolicIA32Alien",
 	"type" : "normal"
 }

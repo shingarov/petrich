@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Petrich2-Tests-CogCompatibility",
+	"classinstvars" : [ ],
+	"pools" : [
+		"MIPSConstants"
+	],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MIPSELSimulatorTests",
+	"type" : "normal"
+}
