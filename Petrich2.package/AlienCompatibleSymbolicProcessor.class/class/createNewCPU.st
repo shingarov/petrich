@@ -1,3 +1,3 @@
 instance creation
 createNewCPU 
-	^self new
+	^self basicNew 
