@@ -1,3 +1,6 @@
 as yet unclassified
 primitiveResetCPU
-	"Reset the receiver to registers all zero, and protected 32-bit mode."
+	"In Squeak:
+	Reset the receiver to registers all zero, and protected 32-bit mode."
+	state := SimState ensureArch: 'IA32'.
+	
