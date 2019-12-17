@@ -1,5 +1,5 @@
 tests
-testPPC42
+testPPC42manualSimMgr 
 	| proj entry factory specialSimulationState simgr stepResult regs |
 	proj := GenericPyObject
 		create: 'angr.Project'
@@ -9,9 +9,15 @@ testPPC42
 	factory := proj at: 'factory'.
 	specialSimulationState := factory entry_state.
 	self assert: (specialSimulationState memory load: 4097<<16 + 160) equals: 16r48656C6C.
-	simgr := factory simulation_manager: specialSimulationState.
 	
-	"TODO: Smalltalkize ->"  self halt. simgr xxxx.
+	simgr := GenericPyObject
+		create: 'angr.sim_manager.SimulationManager'
+		constructorNamedArgs: (Dictionary new 
+			at: 'project' put: proj; "cant live without it"
+			at: 'active_states' put: (Array with: specialSimulationState);
+			yourself).
+	
+	"TODO: Smalltalkize ->"
 	stepResult := P compute: simgr ref, '.step(num_inst=1)'. "li r3, 42"
 	regs := (stepResult @'active') first @'regs'.
 	self assert: regs @'pc' equals: entry + 4.
