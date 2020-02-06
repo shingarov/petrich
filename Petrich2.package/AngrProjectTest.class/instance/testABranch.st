@@ -3,7 +3,7 @@ testABranch
 	| proj arch |
 	proj := GenericPyObject
 		create: 'angr.Project'
-		constructorSequentialArgs: (Array with: '/Users/boris/lamya/aBranch').
+		constructorSequentialArgs: #('/Users/boris/lamya/aBranch').
 	self assert: proj pyClass name equals: 'Project'.
 	arch := proj at: 'arch'.
 	arch asm: 'mflr 0'.
