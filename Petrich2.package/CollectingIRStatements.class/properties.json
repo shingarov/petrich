@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "LWISEMParsingStatus",
-	"category" : "Petrich2-Parsing",
+	"category" : "Petrich2-Parsing-LWISEM",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

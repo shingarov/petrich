@@ -1,0 +1,3 @@
+*GDB
+copyWithInclusion
+	^self copy

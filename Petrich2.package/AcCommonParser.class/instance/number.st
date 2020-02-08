@@ -1,3 +1,0 @@
-grammar
-number
-	^positiveNumber / negativeNumber

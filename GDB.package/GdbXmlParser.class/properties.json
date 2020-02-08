@@ -1,11 +1,17 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Petrich2-Parsing-LWISEM",
+	"category" : "GDB-RSP",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "LWISEMParser",
+	"instvars" : [
+		"gdb",
+		"g",
+		"reg",
+		"defines",
+		"gdbElement"
+	],
+	"name" : "GdbXmlParser",
 	"type" : "normal"
 }

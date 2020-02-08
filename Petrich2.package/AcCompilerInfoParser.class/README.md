@@ -1,1 +1,0 @@
-I parse the AccGen compiler_info.ac files.

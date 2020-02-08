@@ -1,3 +1,0 @@
-grammar
-processorName
-	^processorName

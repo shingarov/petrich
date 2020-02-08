@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "AcProcessorDescription",
-	"category" : "Petrich2-Core",
+	"category" : "Petrich2-Pig1",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

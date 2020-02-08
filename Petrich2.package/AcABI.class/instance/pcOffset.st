@@ -1,3 +1,0 @@
-accessing
-pcOffset
-	^ pcOffset
