@@ -1,3 +1,0 @@
-surgery
-getRegisters
-self halt

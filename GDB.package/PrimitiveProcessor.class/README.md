@@ -1,1 +1,0 @@
-When the native runtime does not have a native implementation for a primitive, a callback into the outer Smalltalk happens which I then process, surgically operating on the state of the inner VM.

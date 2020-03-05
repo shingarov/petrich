@@ -1,3 +1,0 @@
-private
-nameForInspector
-	^'GDB'
