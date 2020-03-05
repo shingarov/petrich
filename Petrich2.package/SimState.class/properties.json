@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "External",
+	"category" : "Petrich2-SymbolicExecution",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"solver"
+	],
+	"name" : "SimState",
+	"type" : "normal"
+}

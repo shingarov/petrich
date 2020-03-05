@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SimSymbolicMemory",
+	"category" : "Petrich2-SymbolicExecution",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SymbolicRAM",
+	"type" : "normal"
+}

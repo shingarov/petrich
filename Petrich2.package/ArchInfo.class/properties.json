@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "External",
+	"category" : "Petrich2-SymbolicExecution",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ArchInfo",
+	"type" : "normal"
+}
