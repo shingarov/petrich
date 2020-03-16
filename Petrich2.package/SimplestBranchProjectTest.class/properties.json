@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Petrich2-Tests-Valgrind",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"startAddr"
+	],
+	"name" : "SimplestBranchProjectTest",
+	"type" : "normal"
+}
