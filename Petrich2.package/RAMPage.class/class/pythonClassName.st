@@ -1,3 +1,3 @@
-instance creation
+private
 pythonClassName 
 	^'ListPage'

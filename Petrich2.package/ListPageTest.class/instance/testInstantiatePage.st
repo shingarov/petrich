@@ -8,4 +8,4 @@ testInstantiatePage
 	self assert: (page isKindOf: RAMPage).
 	self assert: page @'concrete_permissions'  equals: 2r001.
 	self assert: page @'_page_size' equals: 16.
-	self assert: (page load_mo: nil page_idx: 256+1) equals: 2.
+	self assert: (page load: 256+1) equals: 2.
