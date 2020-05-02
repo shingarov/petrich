@@ -15,7 +15,7 @@ processXML: xmlDocument
 		regNum := regNum + 1.
 		rt ].
 	oneRegTransfers := oneRegTransfers sorted: [ :rA :rB | rA regNum <= rB regNum ].
-	
+
 	"Verify that we got all registers from 0 to the total number, without holes."
 	regNum := 0.
 	oneRegTransfers do: [ :rt |

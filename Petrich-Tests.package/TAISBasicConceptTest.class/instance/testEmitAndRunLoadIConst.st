@@ -6,7 +6,7 @@ testEmitAndRunLoadIConst
 	
 	dummyProject := Project new.
 	dummyProject selectedTarget: buildTarget.
-	
+
 	builder := TargetBuilder project: dummyProject.
 	"at this point, the builder has connected to gdb,
 	and started the thin shell;
