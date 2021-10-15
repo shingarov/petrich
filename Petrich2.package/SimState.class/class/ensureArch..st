@@ -1,6 +1,6 @@
 instance creation
 ensureArch: archName
-	self now ifNotNil: [ :simStateNow | ^simStateNow ].
+	"self now ifNotNil: [ :simStateNow | ^simStateNow ]."
 	"Nothing in the caller chain, return a new one"
 	
 	"no no no.  don't.  create a project, and ask the factory for an empty_state.

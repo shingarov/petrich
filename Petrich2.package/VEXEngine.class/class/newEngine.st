@@ -1,3 +1,3 @@
 instance creation
 newEngine
-	^P compute: 'angr.SimEngineVEX()'
+	^P compute: 'angr.engines.vex.heavy.HeavyVEXMixin(project=None)'
